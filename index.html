@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Page</title>
+    <title>Проект</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="header">
+        <div class="tabs">
+            <a href="#" class="tab active">Главная</a>
+            <a href="#" class="tab">Инструкция по установке</a>
+        </div>
+    </div>
+    <div class="content">
+        <div id="home">
+            <h1>Добро пожаловать в Ruspixel</h1>
+            <p>*Тут типо инфа что это и зачем это и для чего это*</p>
+            <p>Вступить в дискорд: *ссылка*.</p>
+        </div>
+        <div id="instructions" style="display: none;">
+            <h2>Инструкция по установке:</h2>
+            <p>1. Скачайте Tampermonkey *ссылка* (можно расписать подробнее с скринами потом).</p>
+            <p>2. Скачайте скрипт по ссылке *ссылка*.</p>
+            <p>3. *Показать результат что должно появиться на сайте*.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
