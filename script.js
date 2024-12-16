@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
             tabs.forEach(t => t.classList.remove('active'));
             tab.classList.add('active');
 
-            if (tab.innerText === "Инструкция по установке новостей") {
+            if (tab.innerText === "Инструкция по скрипту") {
                 home.style.display = "none";
                 instructions.style.display = "block";
                 news.style.display = "none";
