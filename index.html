@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ruspixel</title>
-    <link rel="icon" href="ruspix.ico" type="image/png">
+    <link rel="icon" href="images/ruspix.ico" type="image/png">
     <link rel="stylesheet" href="style.css">
     <meta property="og:title" content="Ruspixel">
     <meta property="og:description" content="Главный сайт сообщества">
@@ -15,30 +15,36 @@
     <div class="header">
         <div class="tabs">
             <a href="#" class="tab active">Главная</a>
-            <a href="#" class="tab">Инструкция по установке</a>
+            <a href="#" class="tab">Инструкция по установке новостей</a>
+            <a href="#" class="tab">Новости</a>
         </div>
     </div>
     <div class="content">
         <div id="home">
-            <img src="ruspix.ico" alt="Ruspixel" class="main-icon">
+            <img src="images/ruspix.png" alt="Логотип Ruspixel" class="main-icon">
             <h1>Добро пожаловать в Ruspixel</h1>
-            <p>Ruspixel - Русское сообщество людей, которые играют на <a href="https://pixelplanet.fun">PixelPlanet</a>.</p>
+            <p>Ruspixel - Русское сообщество людей, которые играют на <a href="https://pixelplanet.fun" target="_blank">PixelPlanet</a>.</p>
             <p>Вступай в наши ряды.</p>
             <p>Сверху инструкция для установки общероссийского новостного скрипта в обход блокировки дискорда</p>
             <p>У нас также есть соц. сети:</p>
-            <p>Наш телеграм: <a href="https://t.me/+Mnt2PomhMotiYzUy">клик</a></p>
-            <p>Наш дискорд: <a href="https://dsc.gg/ruspix">клик</a></p>
+            <p>Наш телеграм: <a href="https://t.me/+Mnt2PomhMotiYzUy" target="_blank">клик</a></p>
+            <p>Наш дискорд: <a href="https://dsc.gg/ruspix" target="_blank">клик</a></p>
         </div>
         <div id="instructions" style="display: none;">
-            <h2>Инструкция по установке:</h2>
-            <p>1. Скачайте <a href="https://www.tampermonkey.net/">Tampermonkey</a>.</p>
-            <p>2. Скачайте скрипт по этой ссылке (в разработке).</p>
-            <p>3. *Скрин скрипта*.</p>
+            <h2>Инструкция по установке новостей:</h2>
+            <p>1. Установите расширение <a href="https://www.tampermonkey.net/" target="_blank">Tampermonkey</a> в ваш браузер.</p>
+            <p>2. Установите скрипт <a href="https://github.com/ruspix/script/raw/refs/heads/main/news.user.js" target="_blank">по этой ссылке.</a></p>
+            <p>3. Зайдите на сайт и убедитесь, что кнопка новостей появлась в правом верхнем углу.</p>
+            <img src="images/scriptonsite.png" alt="Скриншот кнопки">
+        </div>
+        <div id="news" style="display: none;">
+            <h2>Здесь будут находиться новости</h2>
+            <img src="images/WaitingPeachCat.gif" style="width: 100px; height: 100px;" alt="Гифка ожидания">
         </div>
     </div>
     <div class="footer">
-        <a href="https://dsc.gg/ruspix"><img src="discord.png" alt="Дискорд" class="footer-icon"></a>
-        <a href="https://t.me/+Mnt2PomhMotiYzUy"><img src="telegram.png" alt="Телеграм" class="footer-icon"></a>
+        <a href="https://dsc.gg/ruspix" target="_blank"><img src="images/discord.png" alt="Дискорд" class="footer-icon"></a>
+        <a href="https://t.me/+Mnt2PomhMotiYzUy" target="_blank"><img src="images/telegram.png" alt="Телеграм" class="footer-icon"></a>
     </div>
 
     <script src="script.js"></script>
