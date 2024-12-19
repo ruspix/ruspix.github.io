@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const tabs = document.querySelectorAll('.tab');
     const home = document.getElementById('home');
     const instructions = document.getElementById('instructions');
-    const news = document.getElementById('news');
+    const news = document.getElementById('guides');
 
     tabs.forEach(tab => {
         tab.addEventListener('click', function (event) {
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 home.style.display = "none";
                 instructions.style.display = "block";
                 news.style.display = "none";
-            } else if (tab.innerText === "Новости") {
+            } else if (tab.innerText === "Мини-гайды") {
                 home.style.display = "none";
                 instructions.style.display = "none";
                 news.style.display = "block";
