@@ -9,6 +9,7 @@ body {
     min-height: 100vh;
     color: #fff;
     background: linear-gradient(45deg, #1b1b1f, #34343b);
+    max-width: 100%;
 }
 
 a:link,
@@ -61,6 +62,8 @@ a:active {
     text-align: center;
     justify-content: center;
     margin-top: 2%;
+    margin-bottom: 2%;
+    max-width: 100%;
 }
 
 .footer {
