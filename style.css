@@ -91,6 +91,7 @@ a:active {
     max-width: 75px;
     border-radius: 10%;
     box-shadow: 0px 0px 10px rgba(105, 104, 105, 0.6);
+    margin-bottom: 20px;
 }
 
 .gradient {
@@ -208,6 +209,35 @@ img {
     width: 100%;
     font-size: 1.5em;
     position: relative;
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.info-box {
+    background: linear-gradient(45deg, #2c2c2c, #353535);
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.info-box-main {
+    background: linear-gradient(45deg, #2c2c2c, #353535);
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.info-boxes {
+    width: 80%;
+    margin: 0 auto;
 }
 
 @media (min-width: 800px) {
