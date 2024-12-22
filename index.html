@@ -15,8 +15,7 @@
     <div class="header">
         <div class="tabs">
             <a href="#" class="tab active">Главная</a>
-            <a href="#" class="tab">Инструкция по скрипту</a>
-            <a href="#" class="tab">Мини-гайды</a>
+            <a href="#" class="tab">Гайды</a>
         </div>
     </div>
     <div class="content">
@@ -27,58 +26,51 @@
             <p style="margin-bottom: 20px;">Мы ставим пиксели за нашу зелёную территорию (<a href="https://pixelplanet.fun/#d,8798,-13205,-34" target="_blank">здесь</a>) всей командой.</p>
             <p style="font-size: larger; font-weight: bold;">Сверху инструкция для установки общероссийского новостного скрипта.</p>
             <p style="margin-bottom: 35px;">Без скрипта вы не будете в курсе всех наших планов, тем более, если у вас не работает дискорд.</p>
-
+            
             <p>У нас также есть соц. сети:</p>
             <p><img src="images/discord.png" alt="Дискорд" class="mini-icon"> Наш дискорд: <a href="https://dsc.gg/ruspix" target="_blank">клик</a></p>
             <p style="margin-bottom: 50px;"><img src="images/telegram.png" alt="Телеграм" class="mini-icon"> Наш телеграм (щитпост): <a href="https://t.me/+Mnt2PomhMotiYzUy" target="_blank">клик</a></p>
-
+            
             <p>У тебя много свободного времени или хочешь отстоять честь русского народа?</p>
             <p style="font-size: 20px" class="gradient"><b>Вступай в наши ряды.</b></p>
         </div>
-        <div id="instructions" style="display: none;">
-            <h2 style="margin-bottom: 50px;">Инструкция по установке скрипта для новостей:</h2>
-
-            <p style="font-size: larger;">Компьютеры:</p>
-            <p>1. Установите расширение <a href="https://www.tampermonkey.net/" target="_blank">Tampermonkey</a> в ваш браузер.</p>
-            <p>2. Установите скрипт <a href="https://github.com/ruspix/script/raw/refs/heads/main/news.user.js" target="_blank">по этой ссылке.</a></p>
-            <p style="margin-bottom: 75px;">3. Зайдите на PixelPlanet и убедитесь, что кнопка новостей появлась в правом верхнем углу.</p>
-
-            <p style="font-size: larger;">Телефоны (на примере Via):</p>
-            <p>1. Установите браузер <a href="https://viayoo.com/en/" target="_blank">Via</a> на ваш телефон (идёт на любом устройстве и весит мало).</p>
-            <p>2. Скопируйте ссылку на скрипт <a href="https://github.com/ruspix/script/raw/refs/heads/main/news.user.js" target="_blank">https://github.com/ruspix/script/raw/refs/heads/main/news.user.js</a></p>
-            <p>3. В настройках браузера, перейдите во вкладку <b>Скрипты</b> и загрузите наш скрипт по ссылке.</a></p>
-            <p>4. Зайдите на PixelPlanet и убедитесь, что кнопка новостей появлась в правом верхнем углу.</p>
-            <h4 style="margin-bottom: 50px;">Кстати, если капча не решается в Via, вам нужно решить её в Google Chrome, а затем опять зайти с этого браузера.</h4>
-
-            <img src="images/scriptonsite.png" alt="Скриншот кнопки">
-            <h5 style="font-weight: lighter; color: #aaa;">Кнопка новостей прямо на PixelPlanet</h5>
-        </div>
         <div id="guides" style="display: none;">
-            <h2 style="margin-bottom: 50px;">Мини-гайды для новичков:</h2>
-
-            <h3>Как загрузить шаблон на сайт:</h3>
-            <p>1. Заходите в настройки слева сверху сайта:</p>
-            <img src="images/settings.png" alt="Настройки">
-            <p>2. Листаете в самый низ до раздела "Шаблоны":</p>
-            <img src="images/shab.png" alt="Раздел шаблонов">
-            <p>3. Включаете "оверлей", выключаете "мелкие пиксели" (иначе будет лагать на больших шаблонах).</p>
-            <p>4. Ещё ниже самая первая кнопка голубым цветом - "Добавить шаблон".</p>
-            <img src="images/eslivoobshetypie.png" alt="Кнопка добавления">
-            <p>5. Выбираете свой файл, пишете любое название и указываете координаты в формате XXXX_YYYY:</p>
-            <img src="images/primershab.png" alt="Добавление шаблона">
-            <p style="margin-bottom: 50px;">6. Нажимаете на "Сохранить" и смотрите на полотно.</p>
-
-            <h3>Как быстро рисовать по шаблону:</h3>
-            <p>1. Заходите в настройки слева сверху сайта:</p>
-            <img src="images/settings.png" alt="Настройки">
-            <p>2. Ищите эту настройку и включаете режим "шаблону":</p>
-            <img src="images/shablony.png" alt="Настройка">
-            <p>Если вы на компьютере: Зажмите шифт и проведите по полотну с загруженным шаблоном.</p>
-            <p>Если вы с телефона: Нажмите на кнопку карандаша слева снизу и ведите по экрану.</p>
-            <!-- <img src="images/WaitingPeachCat.gif" style="width: 100px; height: 100px;" alt="Гифка ожидания"> -->
+            <h1>Гайды</h1>
+            <div class="content-wrapper">
+                <div class="container big-container">
+                    <div class="tile" onclick="openGuide('guide1')">
+                        <div class="gradient-background"></div>
+                        <img src="https://em-content.zobj.net/thumbs/120/apple/325/newspaper_1f4f0.png" alt="news emoji" width="128" height="128">
+                        <div class="title">Как поставить новостной скрипт</div>
+                    </div>
+                    <div class="tile" onclick="openGuide('guide2')">
+                        <div class="gradient-background"></div>
+                        <img src="https://em-content.zobj.net/source/apple/391/world-map_1f5fa-fe0f.png" alt="template emoji" width="128" height="128">
+                        <div class="title">Как загрузить шаблон</div>
+                    </div>
+                    <div class="tile" onclick="openGuide('guide3')">
+                        <div class="gradient-background"></div>
+                        <img src="https://em-content.zobj.net/source/apple/391/pencil_270f-fe0f.png" alt="shift draw emoji" width="128" height="128">
+                        <div class="title">Как рисовать быстрее</div>
+                    </div>
+                    <div class="tile" onclick="openGuide('guide4')">
+                        <div class="gradient-background"></div>
+                        <img src="https://em-content.zobj.net/source/apple/391/three-oclock_1f552.png" alt="void emoji" width="128" height="128">
+                        <div class="title">Что такое воид/лоу кд</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="overlay" class="overlay" onclick="closeGuide()">
+                <div class="guide-content" onclick="event.stopPropagation()">
+                    <span class="close" onclick="closeGuide()">✖</span>
+                    <h2 id="guide-title"></h2>
+                    <p id="guide-text">Загрузка...</p>
+                </div>
+            </div>
         </div>
     </div>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
