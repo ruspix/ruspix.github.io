@@ -1,1 +1,2 @@
-Главный сайт Ruspixel с основной информацией
+Старый (запасной сайт) Ruspixel.  
+Новый - https://ruspixel.vercel.app/
