@@ -1,2 +1,2 @@
-Старый (запасной сайт) Ruspixel.  
+Старый (запасной) сайт Ruspixel.  
 Новый - https://ruspixel.vercel.app/
